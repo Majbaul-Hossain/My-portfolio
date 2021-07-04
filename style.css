@@ -8,14 +8,14 @@ h1{
     font-size: 50px;
     margin-bottom: 30px;
 }
-#top_banner{
+.top_banner{
     background-image:url(images/top-banner.png);
     background-repeat: no-repeat;
 }
 .coloring-text{
     color: orange;
 }
-section{
+.flexible_content{
     display: flex;
     padding-bottom: 100px;
 }
@@ -77,8 +77,60 @@ span.hire_txt {
     color: white;
     font-weight: 700;
 }
-#about_dream{
+.about_dream{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.exp_wrapper{
+    display: flex;
+    padding-bottom: 100px;
+
+}
+.exp_box{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px #5c5b5b;
+    padding: 65px 60px;
+    border-left: 5px solid;
+    border-image: linear-gradient(tomato,orange);
+    border-image-slice: 1;
+    border-radius: 5px;
+}
+.exp_box h2{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+h3.coloring-text {
+    margin-bottom: 10px;
+}
+.expo_content h1{
+    font-weight: 500;
+}
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.exp_box1{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px #5c5b5b;
+    padding: 65px 60px;
+    border-left: 5px solid;
+    border-radius:5px;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+    
+}
+.exp_box1 h2{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+footer#copyRight {
+    margin-bottom: 15px;
+    text-align: center;
+    color: #2b2a2a;
 }
